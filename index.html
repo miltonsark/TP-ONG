@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+  <title>ONG - Pruebas</title>
+</head>
+<body>
+
+
+<nav class="navbar navbar-expand-lg bg-body-tertiary p-0">
+    <div class="container-fluid">
+        <a class="navbar-brand d-inline-block" href="/index.html">
+           <img class="logoImg" src="https://actividades.techo.org/img/techo_logo_big.png" alt="LOGO">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mb-2 mb-lg-0 align-items-end">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">NOTICIAS</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">PROYECTOS</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#" >SOBRE NOSOTROS</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contacto">CONTACTO</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">INGRESAR</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+
+
+    <main>
+        <!-- section1 = carrousel -->
+       <section class="section1">
+            <div class="m-0 row justify-content-center h-100">
+                <div id="carouselExampleIndicators" class="carousel slide w-100 p-0 h-100">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner h-100">
+                    <div class="carousel-item h-100 active" >
+                    <img src="/images/pexels-antoni-shkraba-5493654.jpg" class="d-block w-100 h-100" alt="..." >
+                    </div>
+                    <div class="carousel-item h-100">
+                    <img src="/images/pexels-lisa-fotios-2816323.jpg" class="d-block w-100 h-100" alt="...">
+                    </div>
+                    <div class="carousel-item h-100">
+                    <img src="/images/pexels-yury-kim-585418-crop.jpg" class="d-block w-100 h-100" alt="...">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+            </div>
+        </section>
+
+         <!-- section2 = aboutUs -->
+        <section class="section2">
+            <div class="textSection2">
+                <h1>¿Quiénes somos?</h1>
+                <p> Somos una organización sin fines de lucro, formada por quienes vemos una necesidad el hecho de ayudar a las familias que carecen de una vivienda digna, especialmente en la cuidad de Rosario. A través de nuestra acción conjunta colaboramos para concretar este propósito que nos une.</p>
+            </div>
+
+            <div class="imageSection2">
+                <img class="imgSection2" src="https://images.pexels.com/photos/4025501/pexels-photo-4025501.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2https://images.pexels.com/photos/4025501/pexels-photo-4025501.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Construyendo">
+            </div>
+        </section>
+
+        <!-- section3 = proyects -->
+        <section class="section3">
+            <div class="textSection3">
+                <h3>PARTICIPA</h3>
+                <h2>¿Cómo participar?</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nobis ipsum recusandae magnam blanditiis neque! Qui voluptatum quaerat quibusdam quasi error, repellat tempore voluptates, ea libero doloribus sit nesciunt blanditiis sapiente.</p>
+                <a href="">
+                    <button type="button" class="btn" data-toggle="button" aria-pressed="false" autocomplete="off">
+                        Single toggle
+                    </button>
+                    <!--<button>VER PROYECTOS</button>-->
+                </a>
+            </div>
+            <div class="imgSection3">
+                <img class="imgSec3 w-100" src="https://img.freepik.com/vector-premium/gente-colaborando-hacer-puzzle_23-2148077318.jpg" alt="">
+            </div>
+
+        </section>
+
+        <!-- section4 = newsletter -->
+        <section class="section4">
+            <div class="formSection4">
+                <form action="">
+                <ul>
+                    <li>
+                    <label for="nameAndSurname">Nombre y apellido:</label>
+                    <input type="text" id="name" name="user_name" />
+                    </li>
+                    <li>
+                    <label for="mail">Correo electrónico:</label>
+                    <input type="email" id="mail" name="user_mail" />
+                    </li>
+                    <li class="button">
+                    <button type="submit">Enviar</button>
+                    </li>
+                </ul>
+                </form>
+            </div>
+        </section>
+    </main>
+    
+<footer id="contacto" class=" text-center text-lg-start bg-light text-muted">
+    <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+        <div class="me-5 d-none d-lg-block">
+            <span>Get connected with us on social networks:</span>
+        </div>
+        <div>
+            <a href="" class="me-4 text-reset">
+                <i class="fab fa-facebook-f"></i>
+            </a>
+            <a href="" class="me-4 text-reset">
+                <i class="fab fa-twitter"></i>
+            </a>
+            <a href="" class="me-4 text-reset">
+                <i class="fab fa-google"></i>
+            </a>
+            <a href="" class="me-4 text-reset">
+                <i class="fab fa-instagram"></i>
+            </a>
+            <a href="" class="me-4 text-reset">
+                <i class="fab fa-linkedin"></i>
+            </a>
+            <a href="" class="me-4 text-reset">
+                <i class="fab fa-github"></i>
+            </a>
+        </div>
+    </section>
+
+    <section class="">
+        <div class="container text-center text-md-start mt-5">
+            <div class="row mt-3">
+                <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+                    <h6 class="text-uppercase fw-bold mb-4">
+                        <i class="fas fa-gem me-3"></i>Company name
+                    </h6>
+                    <p>
+                        Here you can use rows and columns to organize your footer content. Lorem ipsum
+                        dolor sit amet, consectetur adipisicing elit.
+                    </p>
+                </div>
+                <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+                    <h6 class="text-uppercase fw-bold mb-4">
+                        Products
+                    </h6>
+                    <p>
+                        <a href="#!" class="text-reset">Angular</a>
+                    </p>
+                    <p>
+                        <a href="#!" class="text-reset">React</a>
+                    </p>
+                    <p>
+                        <a href="#!" class="text-reset">Vue</a>
+                    </p>
+                    <p>
+                        <a href="#!" class="text-reset">Laravel</a>
+                    </p>
+                </div>
+                <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+                    <h6 class="text-uppercase fw-bold mb-4">
+                        Useful links
+                    </h6>
+                    <p>
+                        <a href="#!" class="text-reset">Pricing</a>
+                    </p>
+                    <p>
+                        <a href="#!" class="text-reset">Settings</a>
+                    </p>
+                    <p>
+                        <a href="#!" class="text-reset">Orders</a>
+                    </p>
+                    <p>
+                        <a href="#!" class="text-reset">Help</a>
+                    </p>
+                </div>
+                <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+                    <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
+                    <p><i class="fas fa-home me-3"></i> New York, NY 10012, US</p>
+                    <p>
+                        <i class="fas fa-envelope me-3"></i>
+                        info@example.com
+                    </p>
+                    <p><i class="fas fa-phone me-3"></i> + 01 234 567 88</p>
+                    <p><i class="fas fa-print me-3"></i> + 01 234 567 89</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+        © 2021 Copyright:
+        <a class="text-reset fw-bold" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+    </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+</body>
+</html>
